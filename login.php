@@ -21,7 +21,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // If a match is found, redirect to the welcome page
-    header('Location: index.html');
+    header('Location: index.php');
     exit;
 } else {
     // If no match is found, redirect back to the login page
